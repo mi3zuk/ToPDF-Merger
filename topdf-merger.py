@@ -225,4 +225,4 @@ class ToPDFMerger(tk.Tk):
             messagebox.showerror("エラー", f"PDF結合に失敗しました:\n{e}")
 
 if __name__ == "__main__":
-    PDFMergerApp().mainloop()
+    ToPDFMerger().mainloop()
